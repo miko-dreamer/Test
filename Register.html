@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Registration</title>
+    <style>
+        form{
+            border: 1px solid;
+            width: 40%;
+            padding: 15px;
+            background-color: lightgray;
+        }
+        .links{
+            
+                display: flex;
+                flex-direction: row;
+                background-color: lightblue;
+                width: 100%;
+                list-style: none;
+                justify-content: space-around;
+                padding: 10px;
+                margin: 0%;
+
+            
+        }
+    </style>
+</head>
+<body>
+    <ul  class="links">
+                <button>  <li><a href="indexed.html">Home</a></li> </button>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                    <li><a href="Table-stu.html">Student</a></li>
+                    <a href="login.html"><button class="login-btn">Login</button></a>
+                  
+                </ul>
+   
+    <form >
+     <h1>Student Registration Form</h1>
+     <label >First Name</label>
+     <input type="text"name="First Name" required>
+     <br><br>
+     <label>Last Name</label> 
+     <input type="text"name="Last Name" required>
+      <br>
+    <label >Gender</label>  
+
+     <input type="radio"name="gender"value="Male"checked>Male
+   <input type="radio"name="gender"value="Female">Female
+  
+       <input type="radio"name="gender"value="other">other<br>
+        <label for="">ID</label> 
+        <input type="number" name="" id="" required><br><br>
+        <label for="">Phone</label>
+        <input type="text" name="" id=""><br><br>
+      <label >Email</label>
+      <input type="email"name="email"><br><br>
+      <label for="">Password</label>
+      <input type="password" name="" id="" required><br><br>
+      <label for="">Confrim password</label>
+      <input type="password" name="" id="" required><br><br>
+      
+      <label >submit</label>
+      <input type="submit"name="register"value="click to register">
+      <input type="reset" value="Reset">
+    
+         </form>
+          
+</body>
+</html>

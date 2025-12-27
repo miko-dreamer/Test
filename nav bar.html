@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>nav bar</title>
+    <style>
+      *{
+        margin: 0px;
+        text-wrap:wrap ;
+      }
+       
+         .footer{
+    background-color: tomato;
+    text-align: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    padding: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+ }
+        ul{
+            list-style-type: none; 
+             display: flex;
+            gap: 40px;
+            margin-right: 2px;
+            text-decoration: none;
+            background-color:blue;
+            color:black;
+            padding: 17px;
+            margin: 0px;
+             text-decoration: none;
+              text-wrap: wrap;
+
+
+        }
+        .nmb:hover{
+            background-color: green;
+            color: white;
+             text-decoration: none;
+           
+
+
+        }
+  
+        .nmb{
+           height: 20px; 
+            color: white;
+            font-size: 20px;
+           padding: 15px;
+           width: 100%;
+           border-radius: 17px;
+           text-wrap: wrap;
+
+        }
+        .sec {
+          list-style-type: none;
+          background-color: lightgray;
+          font-size: 20px;
+          width: 16%;
+          padding: 15px;
+          height:100vh;
+          margin-top: 0px;
+         
+          /* font-size: 25px; */
+        
+
+        }
+        header{
+         
+           text-align: center;
+            margin: 0%;
+           background-image: url(bg\ image.jpg);
+            padding: 40px;
+            width: 100%;
+        }
+        .sect:hover{
+           background-color: green;
+            color: white;
+             text-decoration: none;
+             width: 42%;
+             padding: 5px;
+             border-radius: 18px;
+             text-align: center;
+        }
+        .btn{
+    background-color: rgb(19, 9, 19);
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 17px;
+    margin-left: 80px;
+   
+
+}
+
+
+.dropbtn {
+  background-color: blueviolet;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 17px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+ 
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+      
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Student Registration</h1>
+     
+   </header>
+    <ul>
+            <a href="nav bar.html"><li class="nmb">Home</li></a>
+           <a href=""title=""> <li  class="nmb">Account</li></a>
+           <a href="table-nav.html"> <li class="nmb">Student</li></a>
+           <a href="about-nav.html"> <li class="nmb">About Us</li></a>
+           <a href=""> <li class="nmb">Contact Us</li></a>
+           
+            <div class="dropdown">
+  <li class="dropbtn">Heirarchy</li>
+  <div class="dropdown-content">
+  <a href="view dept.html">View Department</a>
+  <a href="View-college.html">View College</a>
+  <a href="#">View Lecture</a>
+  </div>
+</div>
+
+           <a href="Login-nav.html"><button class="btn">Login</button></a>
+           <a href=""><button class="btn">Register</button></a>
+         
+          
+            
+    </ul>
+    <section class="sec">
+       <nav>
+<a href=""><li class="sect">About Us</li></a>
+<a href=""><li  class="sect">Contact us</li></a>
+<a href=""><li  class="sect">Courses</li></a>
+<a href=""><li  class="sect">Schedule</li></a>
+<a href=""><li  class="sect">Contact us</li></a>
+ </nav>
+       </section>
+   
+    <article>
+      
+    </article>
+    
+  
+    <footer  class="footer">
+        <h3>&copy; 2025 reserved copyright </h3>
+       
+    </footer>
+</body>
+</html>
